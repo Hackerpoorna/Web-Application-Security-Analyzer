@@ -1,6 +1,11 @@
 # Web-Application-Security-Analyzer
 Web Application Security Analyzer is a powerful web application security analyzer designed to identify vulnerabilities such as SQL injection, XSS, CSRF, and more. It automates security testing, provides detailed reports, and enhances web application security through advanced scanning techniques.
 
+## Team
+- **Leader:** [Poornachandra Vatambedu](https://github.com/yourgithub)
+- **Team Members:**
+  - [Member 1](https://github.com/member1github)
+  - [Member 2](https://github.com/member2github)
 
 ## Features
 - Detects common vulnerabilities such as:
