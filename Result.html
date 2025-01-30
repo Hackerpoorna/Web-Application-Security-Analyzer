@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scan Results</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            text-align: center;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Scan Results</h1>
+        <h2>IP Address</h2>
+        <p>{{ ip_address }}</p>
+        <h2>Detected Framework</h2>
+        <p>{{ framework }}</p>
+        <h2>Nmap Scan Results</h2>
+        <pre>{{ nmap }}</pre>
+        <h2>SQLMap Scan Results</h2>
+        <pre>{{ sqlmap }}</pre>
+    </div>
+    <footer>
+        <p>@ TEAM CODE MASTERS</p>
+    </footer>
+</body>
+</html>
+
+
